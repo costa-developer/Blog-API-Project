@@ -1,21 +1,20 @@
----
-
+````markdown
 # Blog API & Frontend
 
 This project demonstrates the creation of a simple blog platform using a **RESTful API** and a **frontend interface** built with **Express.js**. It allows users to perform basic CRUD (Create, Read, Update, Delete) operations on blog posts. The backend API is built with Node.js and Express, while the frontend uses EJS templates to render content dynamically.
 
 ## Features
 
-* **CRUD Operations**: Create, update, and delete blog posts.
-* **View Blog Posts**: The homepage displays a list of all posts with options to edit or delete them.
-* **Separation of Concerns**: The API (running on port 4000) handles data management, and the frontend (running on port 3000) renders the content.
+- **CRUD Operations**: Create, update, and delete blog posts.
+- **View Blog Posts**: The homepage displays a list of all posts with options to edit or delete them.
+- **Separation of Concerns**: The API (running on port 4000) handles data management, and the frontend (running on port 3000) renders the content.
 
 ## Tech Stack
 
-* **Backend**: Node.js, Express.js, Body-Parser
-* **Frontend**: EJS, HTML, CSS
-* **Database**: In-memory data store (simple JavaScript array for blog posts)
-* **HTTP Requests**: Axios (for API requests from the frontend)
+- **Backend**: Node.js, Express.js, Body-Parser
+- **Frontend**: EJS, HTML, CSS
+- **Database**: In-memory data store (simple JavaScript array for blog posts)
+- **HTTP Requests**: Axios (for API requests from the frontend)
 
 ## Installation
 
@@ -24,7 +23,7 @@ This project demonstrates the creation of a simple blog platform using a **RESTf
    ```bash
    git clone https://github.com/costa-developer/Blog-API-Project.git
    cd Blog-API-Project
-   ```
+````
 
 2. Install dependencies for both the backend and frontend:
 
@@ -32,7 +31,7 @@ This project demonstrates the creation of a simple blog platform using a **RESTf
    npm install
    ```
 
-3. Start the backend server:
+3. Start the server:
 
    ```bash
    # Start the API server on port 4000
@@ -120,4 +119,5 @@ This project demonstrates the creation of a simple blog platform using a **RESTf
 
 This project is licensed under the MIT License.
 
----
+
+```
